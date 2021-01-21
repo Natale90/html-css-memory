@@ -61,3 +61,19 @@ img{
   padding-top: 20px;
   border-radius: 0 0 10px 10px;
 }
+
+.layover{
+  width: 250px;
+  height: 350px;
+  border: 1px solid black;
+  border-radius: 10px;
+  /* background-color: lightgreen; */
+  background-image: url(../img/pattern.png);
+  background-size: contain;
+  position: absolute;
+  top: 0;
+}
+
+.card:hover .layover{
+  display: none;
+}
