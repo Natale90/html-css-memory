@@ -22,7 +22,7 @@ header{
 
 main{
   width: 80%;
-  margin: auto;
+  margin: 0 auto 60px;
   border: 1px solid black;
 }
 
