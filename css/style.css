@@ -6,24 +6,27 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: lightblue;
+}
+
 /* ISTRUZIONI HEADER */
 
 header{
   width: 80%;
   font-size: 35px;
   font-family: "Nerko One", sans-serif;
+  color:white;
   text-align: center;
   margin: auto;
   padding: 20px;
-  border: 1px solid;
 }
 
 /* ISTRUZIONI MAIN */
 
 main{
   width: 80%;
-  margin: 0 auto 60px;
-  border: 1px solid black;
+  margin: 0 auto 20px;
 }
 
 /* ISTRUZIONI ROW */
@@ -36,10 +39,12 @@ main{
   width: 250px;
   height: 350px;
   margin: 0px 20px;
-  border: 1px solid red;
+  border: 1px solid black;
   border-radius: 10px;
+  box-shadow: 3px 7px rgba(0,0,0,0.5);
   display: inline-block;
   position: relative;
+  background-color: white;
 }
 
 .card_img{
@@ -94,13 +99,22 @@ img{
   height: 350px;
   border: 1px solid black;
   border-radius: 10px;
-  /* background-color: lightgreen; */
   background-image: url(../img/pattern.png);
   background-size: contain;
   position: absolute;
   top: 0;
+  left: 0;
 }
 
 .card:hover .layover{
   display: none;
+}
+
+/* ISTRUZIONI FOOTER */
+
+footer{
+  font-size: 40px;
+  font-family: "Nerko One", sans-serif;
+  text-align: center;
+  padding: 20px;
 }
